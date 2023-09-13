@@ -25,10 +25,6 @@ const components : JSXMapSerializer = {
  * Props for `Hero`.
  */
 export type HeroProps = SliceComponentProps<Content.HeroSlice>;
-
-
-
-
 /**
  * Component for "Hero" Slices.
  */
@@ -38,7 +34,6 @@ const Hero = ({ slice }: HeroProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-
         <div className="grid grid-cols-1 place-items-center text-center">
           <PrismicRichText
             field={slice.primary.heading}

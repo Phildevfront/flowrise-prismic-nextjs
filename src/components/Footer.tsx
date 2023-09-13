@@ -20,7 +20,7 @@ export default async function Footer() {
 				<ul className="flex">
 					{settings.data.navigation.map(({link, label }) => (
 					<li key={label}>
-						<PrismicNextLink field={link} className="p-3 ">{label}</PrismicNextLink>
+						<PrismicNextLink field={link} className="p-3 text-slate-700 font-display">{label}</PrismicNextLink>
 					</li>
 					))}
 				</ul>
