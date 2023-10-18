@@ -1,0 +1,31 @@
+.header{
+    max-width: 72rem;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+
+.header_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.nav_menu{
+    display:flex;
+    flex-direction: row;
+
+}
+
+.nav_menu_link{
+    color: rgb(71 85 105);
+    font-weight: bold;
+    font-family: var(--font-nunito-sans);
+    padding: 0.75rem;
+}
+
+.nav_menu_link:hover{
+    color: rgb(224, 213, 151);
+}
